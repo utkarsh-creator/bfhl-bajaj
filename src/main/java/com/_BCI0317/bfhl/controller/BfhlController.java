@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/bfhl")
+@CrossOrigin(origins="https://bajaj21bci0317.vercel.app")
 public class BfhlController {
 
     @PostMapping
